@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220612113848_CreateSliderTable.cs" />
+    <Compile Remove="Migrations\20220612113848_CreateSliderTable.Designer.cs" />
+    <Compile Remove="Migrations\20220612135453_ProductsCategoriesProductCategoriesProductImagesColorsProductColorsTable.cs" />
+    <Compile Remove="Migrations\20220612135453_ProductsCategoriesProductCategoriesProductImagesColorsProductColorsTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.25">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\JuanAdminPanel\Controllers\" />
+    <Folder Include="Areas\JuanAdminPanel\Data\" />
+    <Folder Include="Areas\JuanAdminPanel\Models\" />
+    <Folder Include="Areas\JuanAdminPanel\Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\adminpanel_assets\css\maps\style.css.map" />
+    <None Include="wwwroot\adminpanel_assets\documentation\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\fonts\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\Roboto-Black.woff2" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\adminpanel_assets\fonts\Roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\adminpanel_assets\images\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\images\auth\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\images\faces\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\images\logo-mini.svg" />
+    <None Include="wwwroot\adminpanel_assets\images\logo.svg" />
+    <None Include="wwwroot\adminpanel_assets\js\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\js\chart.js" />
+    <None Include="wwwroot\adminpanel_assets\js\Chart.min.js" />
+    <None Include="wwwroot\adminpanel_assets\js\dashboard.js" />
+    <None Include="wwwroot\adminpanel_assets\js\data-table.js" />
+    <None Include="wwwroot\adminpanel_assets\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\adminpanel_assets\js\documentation.js" />
+    <None Include="wwwroot\adminpanel_assets\js\file-upload.js" />
+    <None Include="wwwroot\adminpanel_assets\js\hoverable-collapse.js" />
+    <None Include="wwwroot\adminpanel_assets\js\jquery.cookie.js" />
+    <None Include="wwwroot\adminpanel_assets\js\jquery.dataTables.js" />
+    <None Include="wwwroot\adminpanel_assets\js\off-canvas.js" />
+    <None Include="wwwroot\adminpanel_assets\js\tabs.js" />
+    <None Include="wwwroot\adminpanel_assets\js\template.js" />
+    <None Include="wwwroot\adminpanel_assets\pages\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\charts\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\forms\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\icons\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\samples\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\tables\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\pages\ui-features\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\scss\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\plugin-overrides\_data-tables.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_badges.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_bootstrap-progress.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_buttons.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_cards.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_checkbox-radio.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_dropdown.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_forms.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_icons.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_lists.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\components\_tables.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\landing-screens\_auth.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_animation.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_badges.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_blockqoute.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_cards.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\mixins\_misc.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\style.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_background.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_demo.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_fonts.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_footer.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_functions.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_layouts.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_misc.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_navbar.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_reset.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_sidebar.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_typography.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_utilities.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_variables.scss" />
+    <None Include="wwwroot\adminpanel_assets\scss\_vertical-wrapper.scss" />
+    <None Include="wwwroot\adminpanel_assets\vendors\.DS_Store" />
+    <None Include="wwwroot\adminpanel_assets\vendors\base\bootstrap.min.js.map" />
+    <None Include="wwwroot\adminpanel_assets\vendors\base\vendor.bundle.base.js" />
+    <None Include="wwwroot\adminpanel_assets\vendors\chart.js\Chart.min.js" />
+    <None Include="wwwroot\adminpanel_assets\vendors\datatables.net-bs4\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\adminpanel_assets\vendors\datatables.net\jquery.dataTables.js" />
+    <None Include="wwwroot\adminpanel_assets\vendors\mdi\css\materialdesignicons.min.css.map" />
+    <None Include="wwwroot\adminpanel_assets\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+  </ItemGroup>
+
+</Project>
