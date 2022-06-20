@@ -20,5 +20,6 @@ namespace Juan_fronttoback.DAL
         public DbSet<ProductImages> ProductImages { get; set; }
         public DbSet<Color> Colors { get; set; }
         public DbSet<ProductColors> ProductColors { get; set; }
+        public DbSet<ShopProducts> ShopProducts { get; set; }
     }
 }

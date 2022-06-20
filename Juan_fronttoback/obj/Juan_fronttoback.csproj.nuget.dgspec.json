@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Naz\\Desktop\\Juan_Task\\Juan_fronttoback\\Juan_fronttoback.csproj": {}
+    "C:\\Users\\99470\\Desktop\\ZehlemGetmis\\Juan_fronttoback\\Juan_fronttoback.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Naz\\Desktop\\Juan_Task\\Juan_fronttoback\\Juan_fronttoback.csproj": {
+    "C:\\Users\\99470\\Desktop\\ZehlemGetmis\\Juan_fronttoback\\Juan_fronttoback.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Naz\\Desktop\\Juan_Task\\Juan_fronttoback\\Juan_fronttoback.csproj",
+        "projectUniqueName": "C:\\Users\\99470\\Desktop\\ZehlemGetmis\\Juan_fronttoback\\Juan_fronttoback.csproj",
         "projectName": "Juan_fronttoback",
-        "projectPath": "C:\\Users\\Naz\\Desktop\\Juan_Task\\Juan_fronttoback\\Juan_fronttoback.csproj",
-        "packagesPath": "C:\\Users\\Naz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Naz\\Desktop\\Juan_Task\\Juan_fronttoback\\obj\\",
+        "projectPath": "C:\\Users\\99470\\Desktop\\ZehlemGetmis\\Juan_fronttoback\\Juan_fronttoback.csproj",
+        "packagesPath": "C:\\Users\\99470\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\99470\\Desktop\\ZehlemGetmis\\Juan_fronttoback\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Naz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\99470\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,9 +58,17 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.3, )"
             }
           },
           "imports": [
@@ -81,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

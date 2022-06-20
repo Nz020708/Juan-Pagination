@@ -2,6 +2,7 @@
 using Juan_fronttoback.Models;
 using Juan_fronttoback.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,8 +23,8 @@ namespace Juan_fronttoback.Controllers
             {
                 Sliders = _db.Sliders.ToList(),
                 Features = _db.Features.ToList(),
-                Products=_db.Products.ToList(),
-                Categories=_db.Categories.ToList(),
+                Products=_db.Products.Where(c=>!c.IsDeleted).Include(p=>p.Images).Take(12).ToList(),
+                Categories=_db.Categories.Where(c=>!c.IsDeleted).ToList(),
                 ProductCategories=_db.ProductCategories.ToList(),
                 ProductImages=_db.ProductImages.ToList(),
                 Colors=_db.Colors.ToList(),
